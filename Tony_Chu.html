@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<title>Tony Chu Portfolio</title>
+	
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1 " />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+
+	<style>
+		
+	</style>
+
+</head>
+
+<body>
+	<div id="container">
+		
+		<div class="navigation">
+
+			<div class="buttons">
+
+				<ul>
+					<li><a href="#slider">Home</a></li>
+					<li><a href="#link1">Skills</a></li>
+					<li><a href="#link2">Work</a></li>
+					<li><a href="">Resume</a></li>
+					<li><a href="http://www.google.com">Contact Me</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="break"></div>
+
+		<div class="slider">
+
+			<div class="intro">
+
+				<h1>Tony Chu</h1>
+				<h3>Marketing Research| Web Development | Data Analysis</h3>
+
+			</div>
+
+			<div class="break"></div>
+
+			<div class="readmore"><a href="#link1">
+				Read More</a>
+			</div>
+		</div>
+
+		<div class="break"></div>
+
+		<div class="skills_section">
+
+			<h5 class="section-title" id="link1">SKILLS AND EXPERTISE</h5>
+
+			<ul class="skills">
+
+				<li class="skill-item">
+
+					<div class="skill-image" id="marketing"><img src="images/papers.png" alt="paper icon"></div>
+
+					<div class="description">
+
+						<h3>Marketing Research</h3>
+						<P>I can use systematic approaches and techniques to help you gather and intepret information about a specific industry, market, or product to better assist you to gain 	insights and make decisions.</p>
+					</div>
+				</li>
+
+				<li class="skill-item">
+
+					<div class="skill-image" id="web"><img src="images/html.png" alt="computer icon"></div>
+
+					<div class="description">
+						
+						<h3>Web Development</h3>
+						<P>If you are need a simple and interactive website that is detail oriented, I can help with my skillsets in HTML, CSS, Javascript, JQuery, Bootstrap that are conformed to the W3C's web standards.	</p>
+				
+					</div>
+				</li>
+
+				<li class="skill-item">
+
+					<div class="skill-image" id="data"><img src="images/data.png" alt="epiphany"></div>
+
+					<div class="description">
+						
+						<h3>Data Analysis</h3>
+						<P>Currently in pursuit of Data Analysis Nanodegree from Udacity. Once completed, i am able to help clean up messy data, uncover patterns, make predictions and clearly communicate critical findings.</p>
+				
+					</div>
+				</li>
+
+				
+			
+			</ul>
+		
+			
+			
+		</div>
+		
+		<div class="break"></div>
+
+		<div class="work">
+
+			<h5 class="section-title" id="link2">Work Experience</h5>
+
+			<div class="experience">
+				<h3>Marketing Coordinator - Nuage Telecom</h3>
+				<ul>
+					<li>Conducted marketing and competitive research on UCaaS industry</li>
+					<li>Assisted in laying out framework for sales and product support mechanism, PPC, SEO, and SEM, crowdfunding campaigns, and social media strategies</li>
+					<li>Managed campaign and marketing materials and survey</li>
+					<li>Participated in product design, testing, and implementation</li>
+					
+				</ul>
+			</div>
+
+			<div class="experience">
+				<h3>Marketing Intern - Slammin Media</h3>
+				<ul>
+					<li>Created materials and graphics for social media releases on Twitter, Facebook, Wordpress, and Hootsuite, and organized publicshing calendars</li>
+					<li>Successfully promoted and invited 600 hundred people to the latest event</li>
+					<li>Built multiple brands’ awareness, implemented SEO practices, analyzed followers traffic, and successfully increased engagement and conversion rate</li>
+					
+				</ul>
+			</div>
+
+			
+			
+
+		</div>
+
+		<footer>
+			<div class="footer-section" id="info">
+	  			<p>My name is Tony Chu, and I'm based in Taiwan.</p>
+	  			<p>If you'd like to discuss a project or other opportunities, please don't hesitate to contact me.</p>
+	  			<p>email: tony.chu805@gmail.com <br> phone number: +886-980-564899</p>
+  			</div>
+
+  			<div class="footer-section" id="copyright">
+  				<a href="https://tw.linkedin.com/in/tonychu805"><img src="images/linkedin.png"  class="copyright-image" alt="LinkedIn"></a>
+
+  				<p>© Copyright 2016 Tony Chu</p>
+  			</div>
+
+
+		</footer>
+
+
+
+	</div>
+	
+
+	<script>
+
+	$(document).ready(function(){
+ 
+ 		$("a").on('click', function(event) {
+
+    	event.preventDefault();
+
+   
+    	var hash = this.hash;
+
+    
+    	$('html, body').animate({
+      		scrollTop: $(hash).offset().top
+    	}, 800, function(){
+  
+      		window.location.hash = hash;
+    		});
+  		});
+	});
+
+
+	</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+#container {
+    width: 100%;
+}
+
+.navigation {
+    background: #272727;
+    margin: 0 auto;
+    position: static;
+    height: 50px;
+    width: 1280px;
+}
+
+body {
+    margin: 0;
+    font-family: "Courier New",monospace;
+}
+
+.buttons {
+    color: #9E272B;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons ul {
+    list-style: none;
+    margin: 0;
+    font-size: 0.85em;
+}
+
+.buttons li {
+    display: inline-block;
+    margin: 15px 30px 0 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.break {
+    clear: both;
+}
+
+.slider {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.intro {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.intro h1 {
+    font-size: 100px;
+}
+
+.readmore {
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: #9E272B;
+    width: 90px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.skills_section {
+    background-color: #F3F3F3;
+    width: 100%;
+    min-height: 850px;
+    margin-top: -20px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.skills_section ul {
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.skills {
+    padding-left: 150px;
+}
+
+.skill-item {
+    display: inline;
+    float: left;
+    margin: 80px 25px 0 30px;
+    margin-bottom: 30px;
+}
+
+.skill-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 2px solid black;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.description {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border-top: 1.5px solid white;
+    margin-left: -40px;
+}
+
+.work {
+    height: 800px;
+    width: 100%;
+    background-color: orange;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.experience {
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+footer {
+    height: 130px;
+    width: 100%;
+    background-color: #272727;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: -5px;
+}
+
+.footer-section{
+	color: white;
+    font-size: 0.8em;
+    margin-right: 20px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+#info {
+    float: left;
+    
+
+}
+
+#copyright {
+    float: right;
+}
+
+.copyright-image{
+    height: 50px;
+    position: relative;
+    margin-top: 30px;
+}
+
